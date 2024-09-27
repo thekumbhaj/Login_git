@@ -1,0 +1,42 @@
+.landing-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+  }
+  
+  .landing-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 0;
+    margin-bottom: 20px;
+  }
+  
+  .landing-header h1 {
+    margin: 0;
+    font-size: 3rem;
+  }
+  
+  .landing-header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .tab-content {
+    margin-top: 20px;
+  }
+  
+  .tab-section {
+    padding: 20px;
+  }
+  
+  .tab-section h2 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  .tab-section p {
+    color: #666;
+    font-size: 1.2rem;
+  }
+  
