@@ -40,6 +40,7 @@ function LandingTab() {
     <div className="tab-section">
       <h2>HomeTour</h2>
       <p>This is where you introduce your website and provide key information.</p>
+      <btn> Visit LoginSection</btn>
     </div>
   );
 }

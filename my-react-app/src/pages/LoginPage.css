@@ -1,0 +1,145 @@
+/* LoginPage.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-container {
+    max-width: 420px;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .login-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .login-container h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .login-container input {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s;
+  }
+  
+  .login-container input:focus {
+    border-color: #4f83cc;
+    outline: none;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    color: white;
+    background-color: #4f83cc;
+  }
+  
+  .login-container button:hover {
+    background-color: #3a6cb2;
+  }
+  
+  .social-login {
+    margin-top: 30px;
+  }
+  
+  .google-btn, .github-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border: 1px solid transparent;
+  }
+  
+  .google-btn {
+    background-color: #ffffff;
+    color: #757575;
+    border: 1px solid #ddd;
+  }
+  
+  .google-btn img,
+  .github-btn img {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  .github-btn {
+    background-color: #333;
+    color: white;
+  }
+  
+  .google-btn:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .github-btn:hover {
+    background-color: #242424;
+  }
+  
+  .toggle-link {
+    color: #4f83cc;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: color 0.3s;
+  }
+  
+  .toggle-link:hover {
+    color: #3a6cb2;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  /* Add responsiveness for mobile */
+  @media (max-width: 480px) {
+    .login-container {
+      padding: 20px;
+    }
+  
+    .login-container h1 {
+      font-size: 28px;
+    }
+  
+    .login-container input,
+    .login-container button {
+      font-size: 14px;
+    }
+  }
+  
